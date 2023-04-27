@@ -1,0 +1,15 @@
+#####
+Tilde (~) expression within the shell is useful when writing scripts that need to work across  multiple directories.
+
+
+It is performed using special character named tilda(~)
+tilda (~) using refers to the home directory
+echo ~
+echo ~tushendra(name of the user present) -- it will refer to the home directory of the user
+echo ~root
+note: only if user is present then it will refer to home directory of user
+
+PWD: Print Working Directory
+we can use following tilda(~) expression to represent
+ 1= ~+  -- to represent the PWD
+ 2= ~-  -- to represent the Old PWD variable

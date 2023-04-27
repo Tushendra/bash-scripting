@@ -1,0 +1,13 @@
+#Brace-Expansion
+brace expansion is performed using {}
+Two types of list that we can expand to within your braces{}:
+First type : String List : It can contain any set of individual characters or words
+Second type: Range List: It is used for rapidly expanding out sequences of characters to follow a particular order.
+
+Examples:
+
+echo {a,19,z,barry,42}
+echo {jan,feb,mar,april,june}
+
+note : we should not give spaces in between the mentioned months or words or characters, else it will not work.
+
