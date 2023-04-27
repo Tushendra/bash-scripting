@@ -1,0 +1,32 @@
+##
+  5 Step process bash uses to interpret a command line
+  step 1 : Tokenization: Token is  a sequence of characters that is considered as a single unit by the shell.
+                         The shell decides where a token starts and where a token ends
+			 It uses these metacharacters to break up the command line.
+			 Metacharacters are :
+			 |
+			 &
+			 ;
+			 ()
+			 <>
+			 space,tab and newline
+			 
+			 word: A token that does not contain  an unquoted metacharacters
+			 Operators: Tokes that contains atleast one unquoted metacharacters
+  
+  Step 2 : Command Identification:
+                       It devides into different commands:
+		       First: Simple commands: These are just bunch of individual words, and each simple command is terminated by a control operator
+		       
+		       second: Compound commands: These provides bash with its programming constructs, such as if statements, for loops, while loops,etc.
+
+  
+  Step 3 : Shell Expansion: 
+  
+  Step 4 : Quote Removal:
+
+  Step 5 : Redirection:
+
+ 
+ When the shell has done these 5 steps, it will then execute the result.
+

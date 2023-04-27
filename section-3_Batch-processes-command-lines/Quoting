@@ -1,0 +1,29 @@
+#####
+ Command line are just string of characters , some of which have special meanings and some of don't
+ we can use backslashes,single quotes and double quotes to remove special meaning from characters.
+
+
+
+ Three types of Quoting in bash
+ The different effects that these types have on how the shell processes characters on the command line
+
+
+#// Quoting is about removing special meanings
+ 1 . Backslash(\):
+              Removing special meaning from next character.
+ 2 . Single Quotes(''):
+              Removes special meaning from all characters inside.
+	
+ 3 . Double Quotes(""):
+              Removes special meaning from all except dollar sign($) and backticks(`)
+
+examples:
+  echo john \& jacob
+  filepath=C:\\user\\HP
+  filepath1='C:\user\HP'
+  filepath2='C:\user\$HOME\HP'  # it won't work as single quote ('') removes special meaning of all characters
+  
+  filepath2="C:\user\$HOME\HP"  # it will work as double quote ("")
+  
+  echo filepath
+  echo filepath1
