@@ -1,0 +1,27 @@
+#####
+ 
+
+
+Two types of operators:
+
+Control Operators:
+;(semicolon)	                    More than one command can be used in a singleline.
+& (ampersand)	                    Command ends with & and doesn't wait for command to finish.
+$?(dollar question mark)	    Used to store exit code of the previous command.
+&& (double ampersand)	            Used as logical AND.
+|| (double vertical bar)	    Used as logical OR.
+Combining && and ||	            Used to write if then else structure in command line.
+# (pound sign)	                    Anything written after # will be ignored.
+\ (escaping special characters)
+
+Redirection Operators:
+
+
+Note: Control operators + redirectional operators only matters if they are unquoted.
+
+Points:
+1. Unquoted metacharacters distinguish tokens
+2. Decide if a token is a word or operator
+3. Classify operators as control or redirectional operators
+
+

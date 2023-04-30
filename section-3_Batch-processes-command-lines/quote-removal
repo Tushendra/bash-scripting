@@ -1,0 +1,7 @@
+Summary:
+
+Quote removal is the process that bash uses to remove redundant quotes from the final command
+
+The shell will remove from the final command any unquoted backslashes, single quote characters, and double quote characters that did NOT result from an expansion.
+
+

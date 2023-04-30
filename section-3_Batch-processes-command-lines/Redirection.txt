@@ -1,0 +1,28 @@
+Command line processing flow:
+Step 5
+points to cover:
+ 1. Redirect Standard output and standard error to a file
+ 2. Append standard output and standard error to a file
+ 3. Redirect standard input to choose input sources for your commands
+
+Three stream are there:
+ Stream 0 = Standard input (stdin) :
+                                    It provides us with an alternative way of providing input to a command, aside from using command line arguments.
+ stream 1 = standard output (stdout):
+                                    It contains the data that is produced after successful command execution.
+ stream 2 = standard error (stderr):
+                                   It contains all error messages and status messages that a command produces.
+
+	
+
+
+  We have three types:
+   > for standard output
+   2> for standard error
+   &> for standard output and standard error
+  
+  for appending the data 
+   >> for standard output
+   2>> for standard error
+   &>> for standard output and standard error
+
