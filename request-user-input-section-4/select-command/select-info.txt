@@ -1,0 +1,6 @@
+#!/bin/bash
+///////////////////////////////
+select day in mon tues wed thrus fri sat sun;
+do
+echo "the day of the week is $day"
+done

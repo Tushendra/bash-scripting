@@ -1,0 +1,7 @@
+//////////////////////////////////////////////
+Read command:
+        It allows user to put input and save it in reply variable
+	
+	e.g read 
+	echo $REPLY
+
