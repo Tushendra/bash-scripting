@@ -1,0 +1,13 @@
+In this section:
+while loop
+Getops command
+read while loop
+
+You will be able to use while loops to repeat sequences of commands whilst a certain condition remains met
+
+You will be able to use getops command to allow your script to run differently according to what options are provided.
+
+You will be able to use read-while loops to run a set of commands over the contents of file
+
+You will be able to use read-while loops + process substitution to run a set of command over the output of commands
+
