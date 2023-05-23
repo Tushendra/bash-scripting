@@ -1,0 +1,28 @@
+test command: A command in bash that is used to compare different pieces of information
+if a test is evaluated to be true, the test will return an exit status of 0
+e.g
+[2 -eq 2]
+echo $?
+
+operators:
+-gt : greator then
+
+-lt: less than
+
+-geq: greator then and equals to
+
+-leq : less then and equals to
+
+string test operators:
+
+= : equals to
+!= : not equals to
+-Z = check if string is empty
+-n = it check if string is not empty
+
+file test operators:
+-e = exists
+-f = checks if it a regular file
+-d = check if it a directory
+-x = check if file exists with execution permission
+

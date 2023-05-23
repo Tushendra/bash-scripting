@@ -1,0 +1,6 @@
+In this section:
+ chaining command with list operators
+ test commands
+ if statements
+ if statements with list operators to combine conditions
+ Case conditions

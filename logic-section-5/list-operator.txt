@@ -1,0 +1,7 @@
+use of ";""&""&&" and "||" list operators to create chained list of commands
+List Operators:
+$
+;
+&&
+||
+
