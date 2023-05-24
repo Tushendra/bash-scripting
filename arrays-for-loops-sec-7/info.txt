@@ -1,0 +1,36 @@
+In this Section:
+Create and work with arrays
+how to iterate with the loop
+
+
+you will be able to create literal indexed arrays
+
+you will be able to add, remove , update and extract element from indexed arrays
+
+you will be able to use the readarray command to easily generate indexed arrays, without having to type the values out manually for yourself
+
+you will be use for loop to iterate over arrays
+
+you will be able to use loops with logic to perform different actions for each element of an array
+
+e.g
+numbers=(1 2 3 4)
+echo $number
+echo ${number[2]}
+echo ${number[@]}
+echo ${number[@]:1}
+echo ${number[@]:1:2}
+
+add a value to an array
+number+=(5)
+
+delete a value from an array
+unset number[2]
+
+to check the index:
+echo ${!number[@]}
+
+to enter a number in 0th position
+numbers[0]=a
+
+
